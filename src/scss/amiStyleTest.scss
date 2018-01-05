@@ -1,0 +1,29 @@
+@charset "UTF-8";
+//bootstrap
+@import "node_modules/bootstrap/scss/bootstrap";
+//
+@import 'motion-ui';
+//AMI Style
+@import "base/reset";
+@import "components/buttons",
+"components/_forms.scss";
+@import "layout/header",
+"layout/footer",
+"layout/gnb",
+"layout/sidebar";
+@import "pages/index",
+"pages/subPageNames";
+@import "themes/adminDefault",
+"themes/themeDefault";
+@import "utils/functions",
+"utils/mixins",
+"utils/variables";
+
+div {
+    @include transition();
+    width: 100px;
+    background: goldenrod;
+    &:hover {
+        width: 300px;
+    }
+}

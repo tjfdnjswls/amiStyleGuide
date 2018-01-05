@@ -1,0 +1,21 @@
+{
+  "name": "bootstrapThemeTest",
+  "version": "0.0.1",
+  "scripts": {},
+  "engines": {
+    "node": "latest",
+    "npm": "latest"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta.3",
+    "del": "latest",
+    "gulp-sass": "latest",
+    "gulp-template-html": "latest",
+    "jquery": "latest",
+    "motion-ui": "^1.2.3"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.23.2",
+    "gulp": "^3.9.1"
+  }
+}
